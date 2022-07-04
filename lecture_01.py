@@ -105,6 +105,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,
 
 # 분할된 데이터의 개수 확인
 print(len(X_train), len(X_test))
+print(X_train)
 
 # train_test_split 함수의 random_state 매개변수는 
 # 데이터의 분할된 값이 항상 동일하도록 유지하는 역할을 함
